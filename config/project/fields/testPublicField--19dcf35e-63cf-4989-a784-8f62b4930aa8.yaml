@@ -1,9 +1,9 @@
-columnSuffix: dcldtget
+columnSuffix: bpjixvbv
 contentColumnType: text
 fieldGroup: aed66229-2bb7-47f2-9f7d-f66d0a51ce74 # Common
-handle: testField
+handle: testPublicField
 instructions: null
-name: 'Test Field'
+name: 'Test Public Field'
 searchable: false
 settings:
   byteLimit: null

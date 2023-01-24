@@ -1,13 +1,18 @@
-dateModified: 1674573291
+dateModified: 1674575375
 email:
-  fromEmail: dan@dtott.com
+  fromEmail: test@fakedomain.com
   fromName: gql-bug-test
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    command: '/usr/sbin/sendmail -bs'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
     2b197910-efe0-427f-8de6-0b76806ac38e: gql-bug-test # gql-bug-test
     17f3ca50-39d1-4ea1-a7c1-d420bc7d57dc: 'Test Page' # Test Page
-    5225a655-7b1b-4da7-8cb4-690fc30967cd: 'Test Field' # Test Field
+    19dcf35e-63cf-4989-a784-8f62b4930aa8: 'Test Public Field' # Test Public Field
+    5225a655-7b1b-4da7-8cb4-690fc30967cd: 'Test Private Field' # Test Private Field
     14408bdf-46de-4327-83e0-3031dc8dcdd1: 'Private Schema' # Private Schema
     a4ac5263-3c77-4687-8fd9-690347916188: 'Test Page' # Test Page
     aed66229-2bb7-47f2-9f7d-f66d0a51ce74: Common # Common
@@ -51,14 +56,20 @@ plugins:
             -
               __assoc__:
                 -
-                  - testField
+                  - testPrivateField
                   - private
+                -
+                  - testPublicField
+                  - query
           -
             - 'schema-Private Schema'
             -
               __assoc__:
                 -
-                  - testField
+                  - testPrivateField
+                  - queryMutate
+                -
+                  - testPublicField
                   - queryMutate
       forbiddenField: 'User doesn''t have permission to access requested field(s)'
       forbiddenMutation: 'User doesn''t have permission to perform this mutation'
