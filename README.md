@@ -45,7 +45,7 @@ ddev launch
 
 ### Testing requests:
 
-If you use Postman, [here is a postman collection](craft-gql-bug.postman_collection.json)
+If you use Postman, [here is a postman collection](https://raw.githubusercontent.com/danieltott/craft-gql-bug/main/craft-gql-bug.postman_collection.json)
 
 Otherwise, make a request in whatever way you'd like, with the following setup:
 
