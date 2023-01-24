@@ -1,0 +1,19 @@
+columnSuffix: dcldtget
+contentColumnType: text
+fieldGroup: aed66229-2bb7-47f2-9f7d-f66d0a51ce74 # Common
+handle: testField
+instructions: null
+name: 'Test Field'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,27 @@
+dateModified: 1674572861
+email:
+  fromEmail: dan@dtott.com
+  fromName: gql-bug-test
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    2b197910-efe0-427f-8de6-0b76806ac38e: gql-bug-test # gql-bug-test
+    17f3ca50-39d1-4ea1-a7c1-d420bc7d57dc: 'Test Page' # Test Page
+    5225a655-7b1b-4da7-8cb4-690fc30967cd: 'Test Field' # Test Field
+    14408bdf-46de-4327-83e0-3031dc8dcdd1: 'Private Schema'
+    a4ac5263-3c77-4687-8fd9-690347916188: 'Test Page' # Test Page
+    aed66229-2bb7-47f2-9f7d-f66d0a51ce74: Common # Common
+    baac8502-66f9-4dd2-81f6-c3dea4ae2db0: 'Public Schema' # Public Schema
+    df0698ff-0b95-4bee-910d-1c2f73aa8707: gql-bug-test # gql-bug-test
+system:
+  edition: pro
+  live: true
+  name: gql-bug-test
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

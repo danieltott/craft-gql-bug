@@ -1,0 +1,9 @@
+isPublic: false
+name: 'Private Schema'
+scope:
+  - 'sites.2b197910-efe0-427f-8de6-0b76806ac38e:read' # gql-bug-test
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.a4ac5263-3c77-4687-8fd9-690347916188:read' # Test Page
+  - 'entrytypes.17f3ca50-39d1-4ea1-a7c1-d420bc7d57dc:read' # Test Page

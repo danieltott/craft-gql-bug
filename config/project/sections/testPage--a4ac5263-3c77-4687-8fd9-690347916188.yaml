@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: testPage
+name: 'Test Page'
+propagationMethod: all
+siteSettings:
+  2b197910-efe0-427f-8de6-0b76806ac38e: # gql-bug-test
+    enabledByDefault: true
+    hasUrls: true
+    template: test-page/_entry
+    uriFormat: test-page
+type: single

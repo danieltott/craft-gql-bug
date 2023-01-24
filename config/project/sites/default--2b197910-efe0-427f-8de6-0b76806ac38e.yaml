@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: gql-bug-test
+primary: true
+siteGroup: df0698ff-0b95-4bee-910d-1c2f73aa8707 # gql-bug-test
+sortOrder: 1
