@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "2f6f15f9-94c9-4ce9-9af4-318a9cf48c36",
+		"name": "craft-gql-bug",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Example with Private field",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer _AZL0f9hx95QXMNYDPxEzTSJBU2MnxMf",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "query MyQuery {\n  entry(id: \"2\") {\n    id\n    ... on testPage_testPage_Entry {\n      id\n      testPublicField\n      testPrivateField\n    }\n  }\n}",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "https://craft-gql-bug.ddev.site/api",
+					"protocol": "https",
+					"host": [
+						"craft-gql-bug",
+						"ddev",
+						"site"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Example with just public field",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer _AZL0f9hx95QXMNYDPxEzTSJBU2MnxMf",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "query MyQuery {\n  entry(id: \"2\") {\n    id\n    ... on testPage_testPage_Entry {\n      id\n      testPublicField\n    }\n  }\n}",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "https://craft-gql-bug.ddev.site/api",
+					"protocol": "https",
+					"host": [
+						"craft-gql-bug",
+						"ddev",
+						"site"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
